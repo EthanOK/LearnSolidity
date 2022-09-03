@@ -1,1 +1,1 @@
-https://github.com/miguelmota/merkletreejs
+merkletreejs: https://github.com/miguelmota/merkletreejs
