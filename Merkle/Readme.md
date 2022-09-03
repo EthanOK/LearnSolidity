@@ -1,4 +1,4 @@
-merkletreejs: https://github.com/miguelmota/merkletreejs]
+merkletreejs: https://github.com/miguelmota/merkletreejs
 
 文章：
 1. 像Uniswap一样使用 Merkle 执行空投 https://learnblockchain.cn/article/4613
