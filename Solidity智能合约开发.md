@@ -1,4 +1,4 @@
-#  solidity智能合约开发
+#  Solidity智能合约开发
 
 ## 第一章 入门
 
