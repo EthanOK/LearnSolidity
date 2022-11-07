@@ -9,7 +9,7 @@ Solidity [英文文档](https://docs.soliditylang.org/en/latest/) [中文文档]
 
 [Solidity汇编](https://github.com/EthanOK/LearnSolidity/blob/main/xmind%E6%96%87%E4%BB%B6/md%20or%20pdf/%E5%88%9D%E8%AF%86%E6%B1%87%E7%BC%96.md)  [Solidity汇编案例](https://github.com/EthanOK/LearnSolidity/blob/main/xmind%E6%96%87%E4%BB%B6/md%20or%20pdf/%E5%88%9D%E8%AF%86%E6%B1%87%E7%BC%96.md)
 
-
+[Solidity delete](https://github.com/EthanOK/LearnSolidity/blob/main/xmind%E6%96%87%E4%BB%B6/md%20or%20pdf/Solidity-delete.md)
 
 ## [MerkleTree](https://github.com/EthanOK/LearnSolidity/tree/main/Merkle)
 白名单 空投
