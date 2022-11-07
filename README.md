@@ -11,6 +11,8 @@ Solidity [英文文档](https://docs.soliditylang.org/en/latest/) [中文文档]
 
 [Solidity delete](https://github.com/EthanOK/LearnSolidity/blob/main/xmind%E6%96%87%E4%BB%B6/md%20or%20pdf/Solidity-delete.md)
 
+Solidity智能合约基础开发 [视频](https://space.bilibili.com/1159991219/channel/collectiondetail?sid=616215)        [文档](https://github.com/EthanOK/LearnSolidity/blob/main/Solidity%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E5%BC%80%E5%8F%91.md)
+
 ## [MerkleTree](https://github.com/EthanOK/LearnSolidity/tree/main/Merkle)
 白名单 空投
 
