@@ -14,11 +14,17 @@ def base58_to_hex(base58_string):
     return asc_string.hex()
 
 
-public_key_hex = "0x6278a1e803a76796a3a1f7f6344fe874ebfe94b2"
+def base58_to_ethereumaddress(base58_string):
+    asc_string = base58_to_hex(base58_string)
+    return "0x" + asc_string[2:]
 
 
-address = hex_to_base58(public_key_hex)
-print(address)
-# TGnKLLBQyCo6QF911j65ipBz5araDSYQAD
+etheraddress = "0x6278a1e803a76796a3a1f7f6344fe874ebfe94b2"
+
+address = hex_to_base58(etheraddress)
+print("tron address:" + address)
+# TJwsjYijRMZB88nmwexuiAQ3MJGct2s4wQ
+
 tron_address = "TJwsjYijRMZB88nmwexuiAQ3MJGct2s4wQ"
-print(base58_to_hex(tron_address))
+print(base58_to_ethereumaddress(tron_address))
+# 0x6278a1e803a76796a3a1f7f6344fe874ebfe94b2
