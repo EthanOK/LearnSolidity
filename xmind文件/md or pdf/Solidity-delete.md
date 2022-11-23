@@ -32,3 +32,9 @@
 
 -  map[i]置为默认值
 
+## 结构体 struct
+
+### delete struct
+
+### 全部非map结构的数据类型被置为默认值
+
