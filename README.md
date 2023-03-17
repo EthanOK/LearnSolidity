@@ -13,6 +13,8 @@ Solidity [英文文档](https://docs.soliditylang.org/en/latest/) [中文文档]
 
 Solidity智能合约基础开发 [视频](https://space.bilibili.com/1159991219/channel/collectiondetail?sid=616215)        [文档](https://github.com/EthanOK/LearnSolidity/blob/main/Solidity%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E5%BC%80%E5%8F%91.md)
 
+[Solidity引用拷贝与值拷贝](https://github.com/EthanOK/LearnSolidity/blob/main/xmind%E6%96%87%E4%BB%B6/md%20or%20pdf/%E5%BC%95%E7%94%A8%E6%8B%B7%E8%B4%9D%E8%BF%98%E6%98%AF%E5%80%BC%E6%8B%B7%E8%B4%9D%20%EF%BC%88x%20%3D%20a%EF%BC%89.md)
+
 ## [MerkleTree](https://github.com/EthanOK/LearnSolidity/tree/main/Merkle)
 白名单 空投
 
