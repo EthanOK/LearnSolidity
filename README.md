@@ -17,6 +17,8 @@ Solidity智能合约基础开发 [视频](https://space.bilibili.com/1159991219/
 
 [如何使用encode编码与decode解码结构体](https://github.com/EthanOK/LearnSolidity/blob/main/utils/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8encode%E7%BC%96%E7%A0%81%E4%B8%8Edecode%E8%A7%A3%E7%A0%81%E7%BB%93%E6%9E%84%E4%BD%93.md)
 
+[以太坊签名Java版 头部加`Ethereum Signed Message`](https://github.com/EthanOK/LearnSolidity/blob/main/utils/Java%E7%89%88%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%AD%BE%E5%90%8D.md)
+
 ## [MerkleTree](https://github.com/EthanOK/LearnSolidity/tree/main/Merkle)
 白名单 空投
 
