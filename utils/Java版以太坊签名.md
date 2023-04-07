@@ -83,16 +83,16 @@ import org.web3j.utils.Numeric;
 public class SignPrefixedHexMessage {
     public static void main(String[] args) throws SignatureException {
 
-        String privateKeyHex = "0x5c95b96f81a2································";
+        String privateKeyHex = "0x5c95b········868d71····························";
 
         // messageHashHex = keccak256(abi.encode(address, uint256))
         String messageHashHex = "0xf6896007477ab25a659f87c4f8c5e3baac32547bf305e77aa57743046e10578b";
 
         String signerAddress = getAddressFromPrivateKey(privateKeyHex);
 
-        String signatureString = getSignature(messageHashHex, privateKeyHex);
+        String signatureString = getEthereumSignature(messageHashHex, privateKeyHex);
 
-        boolean verifyResult = verifySignature(messageHashHex, signatureString, signerAddress);
+        boolean verifyResult = verifyEthereumSignature(messageHashHex, signatureString, signerAddress);
 
         System.out.println("verifyResult:" + verifyResult);
     }
@@ -108,7 +108,7 @@ public class SignPrefixedHexMessage {
         return new SignatureData(v, r, s);
     }
 
-    public static boolean verifySignature(String messageHashHex, String signatureHashHex, String signer)
+    public static boolean verifyEthereumSignature(String messageHashHex, String signatureHashHex, String signer)
             throws SignatureException {
         byte[] messageHash = Numeric.hexStringToByteArray(messageHashHex);
         Sign.SignatureData signatureData = convertSignatureToData(signatureHashHex);
@@ -121,7 +121,7 @@ public class SignPrefixedHexMessage {
         return false;
     }
 
-    public static String getSignature(String messageHashHex,
+    public static String getEthereumSignature(String messageHashHex,
             String privateKeyHex) {
         byte[] messageHash = Numeric.hexStringToByteArray(messageHashHex);
         Credentials credentials = Credentials.create(privateKeyHex);
