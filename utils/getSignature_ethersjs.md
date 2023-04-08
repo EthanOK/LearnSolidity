@@ -1,9 +1,39 @@
 
 ## getEncodedDataAndhashData()
 abi.encode() 
-keccak256()
-## getSignature()
 
+keccak256()
+
+```
+async function getEncodedDataAndhashData(orderId, account, amount) {
+  const type = ["uint256", "address", "uint256"];
+  const args = [orderId, account, amount];
+
+  const encodedData = ethers.utils.defaultAbiCoder.encode(type, args);
+
+  const hashData = ethers.utils.keccak256(encodedData);
+
+  return [encodedData, hashData];
+}
+```
+
+## getSignature()
+hashData = keccak256()
+
+signer = new ethers.Wallet(privateKey)
+
+```
+async function getSignature(hashData, signer) {
+  let binaryData_ = ethers.utils.arrayify(hashData);
+
+  let signPromise_ = signer.signMessage(binaryData_);
+  return signPromise_;
+}
+```
+
+
+
+## sample：
 ```
 const { ethers } = require("ethers");
 
