@@ -1,4 +1,4 @@
-# Java encode 动态数组（结构体）
+# Java encode 结构体(动态、静态) 动态数组
 ## 分析
 EIP712Domain 结构体包含string类型（bytes类型），在Java声明为动态结构体 DynamicStruct
 
