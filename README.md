@@ -19,7 +19,7 @@ Solidity智能合约基础开发 [视频](https://space.bilibili.com/1159991219/
 
 [以太坊签名Java版 头部加`Ethereum Signed Message`](https://github.com/EthanOK/LearnSolidity/blob/main/utils/Java%E7%89%88%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%AD%BE%E5%90%8D.md)
 
-[Java encode 结构体（动态、静态） 动态数组](https://github.com/EthanOK/LearnSolidity/blob/main/utils/EncodeStaticStructDynamicArray.md)
+[Java encode 结构体（动态、静态） 动态数组](https://github.com/EthanOK/LearnSolidity/blob/main/utils/EncodeStructAndDynamicArray.md)
 
 [使用ethers.js 进行 abi.encode 和 signature](https://github.com/EthanOK/LearnSolidity/blob/main/utils/getSignature_ethersjs.md)
 
