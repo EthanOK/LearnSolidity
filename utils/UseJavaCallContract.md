@@ -26,9 +26,9 @@ https://github.com/web3j/web3j-maven-plugin
 windows 无法使用 0.7.2 及之后 编译
 
 ### 只查询合约
-Web3j web3j = Web3j
-				.build(new HttpService(RPC));
-getCurrentBlockTimestamp() 
+#### getCurrentBlockTimestamp() 
+
+Web3j web3j = Web3j.build(new HttpService(RPC));
 
 ```
 // Read only public function
@@ -40,10 +40,11 @@ System.out.println("BlockTimestamp:" + blockTimestamp);
 ```
 
 ### 交互合约（花gas费或有权限限制）
+#### setNumber(uint256)
 
 Credentials credentials = Credentials.create(privatekey);
-Web3j web3j = Web3j
-		.build(new HttpService(RPC));
+
+Web3j web3j = Web3j.build(new HttpService(RPC));
 
 ```
 	public static void changeData(Web3j web3j, Credentials credentials, String contractAddress)
