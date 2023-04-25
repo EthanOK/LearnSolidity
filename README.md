@@ -21,6 +21,8 @@ Solidity智能合约基础开发 [视频](https://space.bilibili.com/1159991219/
 
 [Java encode 结构体（动态、静态） 动态数组](https://github.com/EthanOK/LearnSolidity/blob/main/utils/EncodeStructAndDynamicArray.md)
 
+[使用Java访问智能合约](https://github.com/EthanOK/LearnSolidity/blob/main/utils/UseJavaCallContract.md)
+
 [使用ethers.js 进行 abi.encode 和 signature](https://github.com/EthanOK/LearnSolidity/blob/main/utils/getSignature_ethersjs.md)
 
 ## [MerkleTree](https://github.com/EthanOK/LearnSolidity/tree/main/Merkle)
