@@ -1,3 +1,5 @@
+https://github.com/EthanOK/myweb3_java/blob/master/src/main/java/org/web3/Main.java
+
 ## use java connect contract
 ```
 contract Multicall {
