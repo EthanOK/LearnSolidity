@@ -25,6 +25,8 @@ Solidity智能合约基础开发 [视频](https://space.bilibili.com/1159991219/
 
 [使用ethers.js 进行 abi.encode 和 signature](https://github.com/EthanOK/LearnSolidity/blob/main/utils/getSignature_ethersjs.md)
 
+[使用EIP721协议结构化数据](https://github.com/EthanOK/LearnSolidity/blob/main/utils/EIP712.md)
+
 ## [MerkleTree](https://github.com/EthanOK/LearnSolidity/tree/main/Merkle)
 白名单 空投
 
