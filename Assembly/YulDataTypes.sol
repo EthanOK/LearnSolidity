@@ -1,13 +1,29 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract YulDataTypes {
-    function getUint256() external pure returns (uint256) {
-        uint256 value;
+contract YulLearn {
+    function getUint256(uint256 value) external pure returns (uint256) {
+        value = 0;
+        return value;
+    }
+
+    function getUint256Assembly(uint256 value) external pure returns (uint256) {
         assembly {
-            value := 100
+            value := 0
         }
         return value;
+    }
+
+    function getUint256ReturnAssembly(uint256 value)
+        external
+        pure
+        returns (uint256)
+    {
+        assembly {
+            let p := mload(0x40)
+            mstore(p, value)
+            return(p, 32)
+        }
     }
 
     function demoString() external pure returns (string memory) {
