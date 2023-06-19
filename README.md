@@ -43,6 +43,7 @@ function getBytecode()
         returns (bytes memory)
     {
         bytes memory bytecode = type(SimpleWallet).creationCode;
+        // creationCode + parameter（constructor）
         return abi.encodePacked(bytecode, abi.encode(msg.sender));
     }
 
