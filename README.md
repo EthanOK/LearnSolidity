@@ -31,6 +31,24 @@ Solidity智能合约基础开发 [视频](https://space.bilibili.com/1159991219/
 白名单 空投
 
 ## Create
+使用ethers.js 预获取create 创建的合约地址
+```javascript
+const { ethers} = require("ethers");
+
+main();
+
+function main() {
+  let sender = "0x6278A1E803A76796a3A1f7F6344fE874ebfe94B2";
+  let nonce = 524;
+  getAddressCreate(sender, nonce);
+}
+function getAddressCreate(sender, nonce) {
+  let address = ethers.utils.getContractAddress({ from: sender, nonce: nonce });
+  console.log("Create:" + address);
+  return address;
+}
+
+```
 
 ## [Create2](https://github.com/EthanOK/LearnSolidity/tree/main/Create2)
 预先计算出智能合约的地址
@@ -75,10 +93,7 @@ const { keccak256 } = require("ethers/lib/utils");
 main();
 
 function main() {
-  let sender = "0x6278A1E803A76796a3A1f7F6344fE874ebfe94B2";
-  let nonce = 524;
-  getAddressCreate(sender, nonce);
-
+ 
   let from = "0x0000000000ffe8b47b3e2130213b802212439497";
   let salt =
     "0x00000000000000000000000000000000000000000000000000000000006dd6f6";
@@ -90,11 +105,7 @@ function main() {
   getAddressCreate2(from, salt, initCodeHash);
    
 }
-function getAddressCreate(sender, nonce) {
-  let address = ethers.utils.getContractAddress({ from: sender, nonce: nonce });
-  console.log("Create:" + address);
-  return address;
-}
+
 function getAddressCreate2(from, salt, initCodeHash) {
   let address = ethers.utils.getCreate2Address(from, salt, initCodeHash);
   //   console.log("Create2:" + salt + " " + address);
