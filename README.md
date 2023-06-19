@@ -31,7 +31,7 @@ Solidity智能合约基础开发 [视频](https://space.bilibili.com/1159991219/
 白名单 空投
 
 ## Create
-使用ethers.js 预获取create 创建的合约地址
+使用`ethers.js`预获取 `create` 创建的合约地址
 ```javascript
 const { ethers} = require("ethers");
 
@@ -51,10 +51,8 @@ function getAddressCreate(sender, nonce) {
 ```
 
 ## [Create2](https://github.com/EthanOK/LearnSolidity/tree/main/Create2)
-预先计算出智能合约的地址
+1. 预先计算出智能合约的地址(solidity code)
 ```solidity
-
-
 // Get bytecode of contract to be deployed
 
 function getBytecode()
@@ -85,7 +83,7 @@ function getAddress(uint256 _salt)
         return address(uint160(uint256(hash)));
     }
 ```
-使用ethersjs获取create2 创建的合约地址
+2. 使用`ethers.js`获取 `create2` 创建的合约地址
 ```javascript
 const { ethers} = require("ethers");
 const { keccak256 } = require("ethers/lib/utils");
