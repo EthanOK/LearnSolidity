@@ -33,7 +33,19 @@ Solidity智能合约基础开发 [视频](https://space.bilibili.com/1159991219/
 ## [Create2](https://github.com/EthanOK/LearnSolidity/tree/main/Create2)
 预先计算出智能合约的地址
 ```solidity
-//getBytecodeGet() bytecode of contract to be deployed
+
+
+// Get bytecode of contract to be deployed
+
+function getBytecode()
+        public
+        view
+        returns (bytes memory)
+    {
+        bytes memory bytecode = type(SimpleWallet).creationCode;
+        return abi.encodePacked(bytecode, abi.encode(msg.sender));
+    }
+
 function getAddress(uint256 _salt)
         public
         view
