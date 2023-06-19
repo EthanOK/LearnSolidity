@@ -23,7 +23,6 @@ contract Multicall {
 
 https://github.com/web3j/web3j-maven-plugin
 
-windows 无法使用 0.7.2 及之后 编译
 
 ### 只查询合约
 #### getCurrentBlockTimestamp() 
