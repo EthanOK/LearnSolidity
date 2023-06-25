@@ -1,6 +1,6 @@
 # Java encode 结构体(动态、静态) 动态数组
 ## 分析
-EIP712Domain 结构体包含string类型（bytes类型），在Java声明为动态结构体 DynamicStruct
+EIP712Domain 结构体包含string类型（bytes类型、动态数组类型），在Java声明为动态结构体 DynamicStruct
 
 Order 结构体 address和uint256类型字节数确定，在Java声明为静态结构体 StaticStruct
 ## solidity code
