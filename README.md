@@ -28,9 +28,9 @@ Solidity 智能合约基础开发 [视频](https://space.bilibili.com/1159991219
 
 [使用 ethers.js 进行 abi.encode 和 signature](https://github.com/EthanOK/LearnSolidity/blob/main/utils/getSignature_ethersjs.md)
 
-[使用 EIP721 协议结构化数据](utils\EIP712.md)
+[使用 EIP721 协议结构化数据](https://github.com/EthanOK/LearnSolidity/blob/main/utils/EIP712.md)
 
-[Remix 使用`viaIR: true` 编译 配置文件](json\compiler_config.json)
+[Remix 使用`viaIR: true` 编译 配置文件](https://github.com/EthanOK/LearnSolidity/blob/main/json/compiler_config.json)
 
 ## [MerkleTree](https://github.com/EthanOK/LearnSolidity/tree/main/Merkle)
 
