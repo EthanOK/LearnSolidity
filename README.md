@@ -32,6 +32,8 @@ Solidity 智能合约基础开发 [视频](https://space.bilibili.com/1159991219
 
 [Remix 使用`viaIR: true` 编译 配置文件](https://github.com/EthanOK/LearnSolidity/blob/main/json/compiler_config.json)
 
+[Remix 导入指定版本的`合约库`](https://github.com/EthanOK/LearnSolidity/blob/main/utils/Remix_Library_Version.md)
+
 ## [MerkleTree](https://github.com/EthanOK/LearnSolidity/tree/main/Merkle)
 
 白名单 空投
