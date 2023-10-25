@@ -1,4 +1,4 @@
-
+# ethers V5
 ## getEncodedDataAndhashData()
 abi.encode() 
 
@@ -73,3 +73,6 @@ async function getSignature(hashData, signer) {
   return signPromise_;
 }
 ```
+# ethers V6
+https://github.com/EthanOK/LearnSolidity/blob/main/utils/ethersSignature.md
+
