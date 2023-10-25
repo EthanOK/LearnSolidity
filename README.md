@@ -26,7 +26,7 @@ Solidity 智能合约基础开发 [视频](https://space.bilibili.com/1159991219
 
 [使用 Java 获取地址的 ENS](https://github.com/EthanOK/LearnSolidity/blob/main/Java/ENS/GetENSOfAddress.java)
 
-[使用 ethers.js 进行 abi.encode 和 signature](https://github.com/EthanOK/LearnSolidity/blob/main/utils/getSignature_ethersjs.md)
+[使用 ethers.js 进行 abi.encode、encodePacked 和 signature](https://github.com/EthanOK/LearnSolidity/blob/main/utils/getSignature_ethersjs.md)
 
 [使用 EIP721 协议结构化数据](https://github.com/EthanOK/LearnSolidity/blob/main/utils/EIP712.md)
 
