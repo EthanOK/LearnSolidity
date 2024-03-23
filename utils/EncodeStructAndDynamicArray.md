@@ -1,9 +1,13 @@
 # Java encode 结构体(动态、静态) 动态数组
-## 分析
-EIP712Domain 结构体包含string类型（bytes类型、动态数组类型），在Java声明为动态结构体 DynamicStruct
 
-Order 结构体 address和uint256类型字节数确定，在Java声明为静态结构体 StaticStruct
+## 分析
+
+EIP712Domain 结构体包含 string 类型（bytes 类型、动态数组类型），在 Java 声明为动态结构体 DynamicStruct
+
+Order 结构体 address 和 uint256 类型字节数确定，在 Java 声明为静态结构体 StaticStruct
+
 ## solidity code
+
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
@@ -36,8 +40,10 @@ contract encodeTest {
     }
 }
 
-```      
-## java code
+```
+
+## Java encode
+
 ```java
 package com.utils;
 
@@ -65,7 +71,7 @@ public class EncodeStructAndDynamicArray {
         int len = 3;
         StaticStruct[] orders = new StaticStruct[len];
         Uint256[] royaltyFees = new Uint256[len];
-        
+
         // Add Data
         for (int i = 0; i < len; i++) {
             orders[i] = new StaticStruct(
@@ -90,4 +96,22 @@ public class EncodeStructAndDynamicArray {
 
 }
 
+```
+
+## Java decode(hexData, outputParameters) <==> abi.decode(data, (address, bytes32, uint256))
+
+```java
+    List<TypeReference<Type>> outputParameters = new ArrayList<>();
+
+    outputParameters.add((TypeReference) new TypeReference<Address>() {});
+    outputParameters.add((TypeReference) new TypeReference<Bytes32>() {});
+    outputParameters.add((TypeReference) new TypeReference<Uint256>() {});
+
+    List<Type> decodeDatas = FunctionReturnDecoder.decode(hexData, outputParameters);
+
+    String account = (String) decodeDatas.get(0).getValue();
+
+    String salt = Numeric.toHexString((byte[]) decodeDatas.get(1).getValue());
+
+    String chainId = ((BigInteger) decodeDatas.get(2).getValue()).toString();
 ```
