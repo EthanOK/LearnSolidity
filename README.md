@@ -24,6 +24,8 @@ Solidity 智能合约基础开发 [视频](https://space.bilibili.com/1159991219
 
 [使用 Java 访问智能合约](https://github.com/EthanOK/LearnSolidity/blob/main/utils/UseJavaCallContract.md)
 
+[Java 实现一次请求获取多个 Topics0 合约事件](https://github.com/EthanOK/LearnSolidity/blob/main/Java/FilterMulTopicsEvent/FilterMulTopics.java)
+
 [使用 Java 获取地址的 ENS](https://github.com/EthanOK/LearnSolidity/blob/main/Java/ENS/GetENSOfAddress.java)
 
 [使用 ethers.js 进行 abi.encode、encodePacked 和 signature](https://github.com/EthanOK/LearnSolidity/blob/main/utils/getSignature_ethersjs.md)
