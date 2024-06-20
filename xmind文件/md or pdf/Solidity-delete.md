@@ -6,9 +6,9 @@
 
 ## 动态数据类型
 
-### 将其长度置为0
+### 将其长度置为 0
 
-## 整个数组 delete a 
+## 整个数组 delete a
 
 ### 静态数值
 
@@ -16,7 +16,7 @@
 
 ### 动态数组
 
-- 长度置为0
+- 长度置为 0
 
 ## 数组元素 delete a[0]
 
@@ -24,17 +24,16 @@
 
 ## mapping map
 
-### delete map 
+### delete map
 
 - 不起作用
 
-###  delete map[i]
+### delete map[i]
 
--  map[i]置为默认值
+- map[i]置为默认值
 
 ## 结构体 struct
 
 ### delete struct
 
-### 全部非map结构的数据类型被置为默认值
-
+### 全部非 map 结构的数据类型被置为默认值
