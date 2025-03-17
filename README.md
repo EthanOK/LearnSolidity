@@ -26,6 +26,8 @@ Solidity 智能合约基础开发 [视频](https://space.bilibili.com/1159991219
 
 [UsingFor 与 用户定义值类型](./DefinedValueTypes/custom_type.md)
 
+[Assembly log Event](https://github.com/EthanOK/assembly-log)
+
 [如何使用 encode 编码与 decode 解码结构体](./utils/如何使用encode编码与decode解码结构体.md)
 
 [以太坊签名 Java 版 头部加`Ethereum Signed Message`](./utils/Java版以太坊签名.md)
