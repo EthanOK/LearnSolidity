@@ -28,6 +28,8 @@ Solidity 智能合约基础开发 [视频](https://space.bilibili.com/1159991219
 
 [Assembly log Event](https://github.com/EthanOK/assembly-log)
 
+[Gas Optimization](https://github.com/EthanOK/WTF-gas-optimization)
+
 [如何使用 encode 编码与 decode 解码结构体](./utils/如何使用encode编码与decode解码结构体.md)
 
 [以太坊签名 Java 版 头部加`Ethereum Signed Message`](./utils/Java版以太坊签名.md)
