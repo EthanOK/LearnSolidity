@@ -99,3 +99,12 @@ function getAddress(uint256 _salt)
 2. 使用`ethers.js` 获取 `create2` 创建的合约地址
 
    [Get Contract Address Of Create2](./Create2/GetContractAddressOfCreate2.js)
+
+# Solidity Contract Libraries
+- [Batch Distributor](https://github.com/pcaversaccio/batch-distributor)
+- [`CREATE` Factory](https://github.com/pcaversaccio/create-util)
+- [Multicall](https://github.com/mds1/multicall)
+- [OpenZeppelin Contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
+- [thirdweb-dev](https://github.com/thirdweb-dev/contracts)
+- [Solady](https://github.com/Vectorized/solady)
+- [Solmate](https://github.com/transmissions11/solmate)
