@@ -48,6 +48,8 @@ Solidity 智能合约基础开发 [视频](https://space.bilibili.com/1159991219
 
 [使用 EIP721 协议结构化数据](./utils/EIP712.md)
 
+[Verify Opensea Bulk Order Signature](https://github.com/EthanOK/seaport-lite)
+
 [Remix 使用`viaIR: true` 编译 配置文件](./json/compiler_config.json)
 
 [Remix 导入指定版本的`合约库`](./utils/Remix_Library_Version.md)
