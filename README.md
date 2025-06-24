@@ -105,6 +105,7 @@ function getAddress(uint256 _salt)
    [Get Contract Address Of Create2](./Create2/GetContractAddressOfCreate2.js)
 
 # Solidity Contract Libraries
+
 - [Batch Distributor](https://github.com/pcaversaccio/batch-distributor)
 - [`CREATE` Factory](https://github.com/pcaversaccio/create-util)
 - [Multicall](https://github.com/mds1/multicall)
@@ -113,3 +114,8 @@ function getAddress(uint256 _salt)
 - [murky](https://github.com/dmfxyz/murky)
 - [Solady](https://github.com/Vectorized/solady)
 - [Solmate](https://github.com/transmissions11/solmate)
+
+# Vanity Address Generator
+
+- [Vanity EOA Address Generator](https://github.com/10gic/vanitygen-plusplus)
+- [Vanity Contract Address Generator](https://github.com/HrikB/createXcrunch)
